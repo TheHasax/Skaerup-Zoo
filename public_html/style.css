@@ -114,15 +114,12 @@ article h3 {
 footer p {
     text-align: left;
 }
-#navbar {
-    display: inline;
-}
 
 body {
-background-image: url(zoobackfront.png), url(zooback.jpg);
-background-position: bottom, center;
-background-attachment: fixed; 
-background-size: cover; 
+background-image: url(zoo_logo.png), url(zoobackfront.png), url(zooback.jpg);
+background-position: top right, bottom, center;
+background-attachment: scroll, fixed, fixed; 
+background-size: 30%, cover, cover; 
 background-repeat: no-repeat;
 }
 
@@ -183,3 +180,6 @@ footer.fod {
     background-attachment: fixed; 
     background-size: 100%; 
 }*/
+#miniimg {
+    max-width: 18%;
+}

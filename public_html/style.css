@@ -1,0 +1,185 @@
+/* CSS Dropdown Menu Start 
+@charset "utf-8"; /*Sikre du kan skrive æ ø og å*/
+#navMenu {
+margin:0;
+padding:0;
+}
+#navMenu ul {
+margin:0;
+padding:0;
+line-height:30px;
+}
+#navMenu li {
+margin:0;
+padding:0;
+list-style:none;
+float:left;
+position:relative;
+background: #d0d1ad; /*Baggrundsfarven for links*/
+}
+#navMenu ul li a {
+text-align:center;
+font-family:"Comic Sans MS", cursive; /*Links skrifttype*/
+text-decoration:none; /*Fjerner links understregning*/
+height:30px; /*Højden på link-bokse*/
+width:150px; /*Breden på link-bokse*/
+display:block; /*Link i blok*/
+color:#FFF; /*Links tekstfarve*/
+border:1px solid Green;
+text-shadow:1px 1px 1px #000; /*Links kant størrelser og farve*/
+}
+#navMenu ul ul {
+position:absolute;
+visibility:hidden;
+top: 32px;
+}
+#navMenu ul li:hover ul {
+visibility:visible;
+}
+/*****************************************************/
+#navMenu li:hover {
+background:white; 
+}
+#navMenu ul li:hover ul li a:hover {
+background:#CCC; /*Underlinks "mus over" farve*/
+color:#000; /*Underlinks "mus over" tekstfarve*/
+}
+#navMenu a:hover {
+color:#000; /*Links "mus over" tekstfarve mens musen er på linket*/
+}
+.clearFloat {
+clear:both;
+margin:0;
+padding:0;
+}
+/* CSS Dropdown MEnu End
+header {
+    border-top: 3px solid Green; 
+    padding-top: 15px; 
+}
+/*
+
+*/
+/* 
+
+*/
+
+/*
+
+*/
+/* 
+    Created on : 20-09-2016, 14:14:13
+    Author     : Peter
+*/ WEbsite template start 
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+img {
+    max-width: 100%;
+    
+}
+nav ul {
+list-style-type: none;  
+padding: 0;
+}
+nav li {
+    background-color: #4A8C5E;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+nav li a:link {
+    display: block; 
+    padding: 10px 0; 
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    
+}
+nav li a:visited {
+    color: black;
+    
+    
+}
+nav li a:hover {
+    background-color: green;
+       
+}
+article h3 {
+    border-top: 2px solid Green;
+    padding-top: 10px; 
+}
+footer p {
+    text-align: left;
+}
+#navbar {
+    display: inline;
+}
+
+body {
+background-image: url(zoobackfront.png), url(zooback.jpg);
+background-position: bottom, center;
+background-attachment: fixed; 
+background-size: cover; 
+background-repeat: no-repeat;
+}
+
+footer {
+    border-top: solid black 1px; 
+}
+
+
+.act {
+  border-top: solid black 1px;  
+}
+
+p {
+color: black;
+}
+h1, h2, h3, h4, h5, strong, br {
+    color: #39857e;
+}
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    border: 2px solid black; 
+
+    
+}
+.mySlides {
+    
+}
+
+
+
+div.text {
+    background-color: rgba(236, 237, 222, .9);
+    color: #d0d1ad;
+    margin: 20px 10px 20px 10px;
+    padding: 20px;
+    font-family: bookman old style;
+    border-radius: 3px; /* border-radius rounds corners */ 
+    
+
+} 
+
+
+
+footer.fod {
+    background-color: rgba(208, 209, 173, .9);
+    border-radius: 3px; 
+    font-family: bookman old style;
+    margin: 20px 10px 20px 10px; 
+}
+/*divbg {
+    background-image: url(zoobackfront.png);
+    background-attachment: fixed; 
+    background-size: 100%; 
+}*/

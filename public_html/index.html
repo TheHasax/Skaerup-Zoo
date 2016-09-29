@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=>
+        <head> 
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+            <link href="DropDownMenu.css" rel="stylesheet" type="text/css" />
+    
+
+</head>
+    <body>
+        <divbg>
+<div id="wrapper">
+<!--Start-->
+<div id="navMenu">
+<ul>
+<li> <a href="#">Menu</a> <!--Overordnet link-->
+<ul>
+    <li><a href="index.html">Forside</a></li>
+<li><a href="link1.html">Nyheder</a></li> <!--Underlink til Link 1-->
+<li><a href="link2.html">Aktiviteter</a></li> <!--Underlink til Link 1-->
+<li><a href="link3.html">Galleri</a></li> <!--Underlink til Link 1-->
+<li><a href="link3.html">Skole</a></li> 
+<li><a href="link3.html">Kontakt</a></li> 
+</ul> <!--End inner LI list-->
+</li> <!--End mail LI list-->
+</ul> <!--End main UL list-->
+
+
+<br class="clearFloat" />
+</div> <!--End navMenu div-->
+<!--Stop-->
+</div> <!--End wrapper div-->
+<nav class="navbar">
+    <ul>
+        <li><a href="#pris">Pris</a></li>
+        <li><a href="#åbning">Åbningstider</a></li>
+        <li><a href="http://www.billetsalg.dk/Event/Sk%C3%A6rup%20Zoo">Køb billet</a></li>
+    </ul>
+</nav>
+    <head> 
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+   
+    
+        <div class="wrapper">
+            
+
+
+            <main>
+                <section>
+                    <article>
+                        <p>
+                       <style>
+.mySlides {display:none}
+.left, .right, .badge {cursor:pointer}
+.badge {height:13px;width:13px;padding:0}
+</style>
+
+
+<div class="container">
+</div>
+
+<div class="content display-container" style="max-width:800px">
+  <img class="mySlides" src="slide1.jpg" style="width:100%">
+  <img class="mySlides" src="slide2.jpg" style="width:100%">
+  <img class="mySlides" src="slide3.jpg" style="width:100%">
+      <img class="mySlides" src="slide 4.jpg" style="width:100%">
+          <img class="mySlides" src="slide5.jpg" style="width:100%">
+              <img class="mySlides" src="slide6.jpg" style="width:100%">
+                  <img class="mySlides" src="slide7.jpg" style="width:100%">
+              
+
+      
+  <div class="center section large text-white display-bottomleft" style="width:100%">
+    <div class="left padding-left hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="right padding-right hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="badge demo border transparent hover-white" onclick="currentDiv(1)"></span>
+    <span class="badge demo border transparent hover-white" onclick="currentDiv(2)"></span>
+    <span class="badge demo border transparent hover-white" onclick="currentDiv(3)"></span>
+  </div>
+ <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 2}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "white";
+}
+</script>
+                        </p>
+                    </article>
+                    <article>
+                        <div class="text">
+                            <h3><i>Velkommen til Skærup Zoo</i></h3>
+                        <p>Skærup Zoo er mere end en samling dyr. Vores mål er at formidle viden om dyr, for der igennem at medvirke til bevarelse af truede dyrearter og forståelse for naturen.
+
+I Skærup Zoo kan du opleve mere end 100 forskellige dyrearter. Du kommer helt tæt på legesyge aber, farlige rovdyr og søde dyrebørn. På legepladsen kan børnene muntre sig eller de kan kæle med de søde klappedyr.
+
+De fleste dyr må fodres med special foder, der kan købes i kiosken for 20,- pr. pose.
+
+På gensyn i Skærup Zoo. </p>
+                    </article>
+                    <article>
+                        <div class="text">
+                        <h3> <i>Nyheder -SKAL VÆRE LINK TIL NYHEDER
+                            </i></h3>
+                        <h3>Nye Italienske Beboere<i></i></h3>
+                        <p>Nye Skruehornsgeder</p>
+                        <img src="ged.jpg" alt="Skruehorn">
+                        <p>Vi har fået nye skruehornsgeder
+                 Gederne har overtaget anlægget, hvor zebraerne gik.
+                        </p>
+                        </div>
+                        
+                        
+                    </article>
+                </section>
+                <aside>
+                    <div class="text">
+                    <h2>Info</h2>
+                    <p id="åbning">Åbningstider:</p>
+                    <p id="pris">Prisliste:</p>
+                    <h2>Demografi</h2>
+                    <img src="kort#"></img>
+                    <h2>Nye Dyreunger</h2>
+                    <p>Nye dyreunger, født</p>
+                    <img src='dyreunger'></img>
+                    <h2>Kontaktinformationer</h2>
+                    <p> Mail:info.skaerupzoo@gmail.com
+                    Tlf: 27 62 53 82
+                    Adresse: Søndermarksvej 102</p>
+                    </div>
+ </aside>
+            </main>
+</div>
+                    </divbg>
+                        </body>
+
+
+            <footer class="fod">
+                <p>Skærup Zoo</p>
+                    <p>Søndermarksvej 102</p>
+                    <p>7080 Børkop</p>
+                    <p>Telefon: (+45) 27 62 53 82</p>
+                    <p>Info.skaerupzoo@gmail.com</p>
+                    <p><a href="Skaerup-zoo.dk">skaerup-zoo.dk</a></p>
+            </footer> 
+
+
+
+</html>
+
